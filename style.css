@@ -124,13 +124,14 @@ header {
 
 .slider {
     height: 100%;
-    width: 1170px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .slider-content {
     padding-top: 220px;
     width: 70%;
+    margin: 0 auto;
 }
 
 .slider-logo {
@@ -333,6 +334,7 @@ header {
 .full-team {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .block-team {
@@ -858,6 +860,12 @@ footer {
         width: 100%;
         text-align: center;
     }
+    .menu {
+        padding-left: 30px;
+        overflow-x: scroll;
+        
+        width: 100%;
+    }
 }
 
 
@@ -866,6 +874,7 @@ footer {
 @media(min-width:992px) {
     .container {
         max-width: 960px;
+       
     }
     .col-md-2 {
         flex: 0 0 16.66667%;
@@ -875,6 +884,8 @@ footer {
         flex: 0 0 66.66667%;
         max-width: 66.66667%;
     }
+  
+   
 }
 
 
@@ -885,12 +896,76 @@ footer {
         width: 100%;
         max-width: 1170px;
     }
+    .menu {
+        padding-left: 30px;
+        overflow-x: clip;
+       
+        width: 100%;
+       
+    }
+}
+
+
+@media(max-width:1200px){
+
+    .hidden-xs {
+        display: none;
+    }
+
+    body {
+        width: 100%;
+    }
+    .touch-content-text {
+        width: 100%;
+    }
+    .lovely-work {
+        height: 100%;
+    }
+
+    .what-we-do {
+        height: 100%;
+    }
+    .register {
+        display: none;
+    }
+    .features{
+
+        height: 100%;
+
+    }
+    .we-are-modest{
+
+        height: 100%;
+
+    }
+ 
+    
+    .meet-the-team{
+        height: 100%;
+    }
+
+    .lovely-images{
+
+        justify-content: space-around;
+    }
+    .cols-lg-3{
+
+        display: grid;
+        justify-content: space-around;
+    }
+
 }
 
 
 /* only mobile */
 
 @media(max-width:767px) {
+    .col-xs-12{
+
+           flex: 0 0 100%;
+            max-width: 100%;
+
+    }
     body {
         width: 100%;
     }
@@ -901,7 +976,7 @@ footer {
         padding-left: 30px;
         overflow-x: scroll;
         width: 40px;
-        width: 340px;
+        width: 100%;
     }
     .slider-content {
         width: 200px;
