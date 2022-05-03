@@ -8,7 +8,7 @@ body {
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
-header {
+.header {
     background-color: #1d2126;
     color: white;
 }
@@ -59,12 +59,12 @@ header {
     border: 2px solid #5b6168;
 }
 
-.menu-logo:hover {
+.menu-li-icons:hover {
     background-color: #23b7a4;
     color: #a4aead;
 }
 
-.menu-logo {
+.menu-li-icons {
     text-transform: uppercase;
     padding: 6px 10px 0px 10px;
     cursor: pointer;
@@ -536,7 +536,7 @@ header {
     padding-top: 80px;
 }
 
-.what-logo {
+.what-logs {
     font-size: 36px;
     text-transform: uppercase;
     color: black;
@@ -1043,4 +1043,94 @@ footer {
     .features-block-image img {
         width: 345px;
     }
+}
+
+
+
+@media (max-width:375px){
+    
+    .slider-logo{
+
+        font-size: 25px;
+    }
+
+    .slider-button{
+        width: 210px;
+    }
+
+    .slider-button button{
+
+        width: 47%;
+        height: 90%;
+
+
+    }
+    [class *= "-logo"]{
+        font-size: 25px;
+    }
+
+   
+
+    .modest-text-style{
+
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .modest-button{
+
+        width: 88%;
+
+    }
+
+    .modest-num-text{
+
+        width: 200px;
+
+    }
+    .lovely-img {
+        height: 150px;
+        
+    }
+
+    .lovely-img img{
+
+        height: 150px;
+        width: 250px;
+
+    }
+    .lovely-text-hover{
+
+        width: 250px;
+
+    }
+    .lovely-block{
+
+        width: 260px;
+        height: 150px;
+
+    }
+    .features-block{
+
+        width: auto;
+    }
+    .features-block-image{
+        width: auto;
+    }
+    .features-block-image img{
+
+        width: 288px;
+    }
+    .touch-content-text{
+
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+    .modest-content{
+
+        width: 280px;
+
+    }
+
 }
