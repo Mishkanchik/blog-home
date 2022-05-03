@@ -130,7 +130,7 @@ body {
 
 .slider-content {
     padding-top: 220px;
-    width: 70%;
+    width: 45%;
     margin: 0 auto;
 }
 
@@ -536,7 +536,7 @@ body {
     padding-top: 80px;
 }
 
-.what-logs {
+.what-logo {
     font-size: 36px;
     text-transform: uppercase;
     color: black;
@@ -564,7 +564,7 @@ body {
     padding-bottom: 10px;
 }
 
-.what-block-logo {
+.what-block-logs {
     font-family: 'Quattrocento Sans', sans-serif;
     font-weight: 700;
     font-size: 17px;
@@ -896,6 +896,7 @@ footer {
         width: 100%;
         max-width: 1170px;
     }
+ 
     .menu {
         padding-left: 30px;
         overflow-x: clip;
