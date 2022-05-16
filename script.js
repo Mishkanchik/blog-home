@@ -1,14 +1,13 @@
 let registerBlock = document.querySelector(".register-block")
 
-function scroll50 (){
-    
-    registerBlock.classList.add("show")
+function showModalBuyScrol (){
+    if(window.pageYOffset> document.body.scrollHeight / 2){
+
+        registerBlock.classList.add("show")
+    }
     
 }
-
-window.addEventListener("scroll",scroll50 )
-
-
+window.addEventListener("scroll",showModalBuyScrol)
 
 let xBackClick = document.querySelector(".xback")
 
