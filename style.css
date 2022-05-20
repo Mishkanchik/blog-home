@@ -865,7 +865,7 @@ footer {
 .col-xs-12 {
     flex: 0 0 100%;
     max-width: 100%;
-    text-align: center;
+   
 }
 
 
@@ -989,11 +989,16 @@ footer {
 /* only mobile */
 
 @media(max-width:767px) {
+    .row{
+        justify-content: space-between;
+    }
+   
     .nav-mobile-menu {
         width: 15px;
         height: 15px;
         position: relative;
-        margin: 0 95%;
+        
+        margin-top: 5px;
     }
     .nav-mobile-menu span {
         height: 1px;
@@ -1051,7 +1056,7 @@ footer {
     
     .col-xs-12{
 
-           flex: 0 0 100%;
+           flex: 0 0 0;
             max-width: 100%;
 
     }
